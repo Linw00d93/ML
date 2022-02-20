@@ -1,0 +1,7 @@
+sudo -H pip3 install --upgrade pip
+sudo -H pip3 install virtualenv
+virtualenv jupyter
+jupyter notebook
+
+#### to login 
+ssh -L 8888:localhost:8888 your_server_username@your_server_ip
